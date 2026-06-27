@@ -71,10 +71,10 @@ def get_model():
 
 def main():
     # Settings
-    INPUT_FILE = "lectures/chem-20260613-hydrocarbons.wav"
+    INPUT_FILE = ""
     CHUNK_FOLDER = "chunks"
     CHUNK_DIR = Path(CHUNK_FOLDER)
-    OUTPUT_FILE = "lecture.txt"
+    OUTPUT_FILE = ""
     CHUNK_LENGTH = 600 
 
     validate_path("Output file", OUTPUT_FILE)
